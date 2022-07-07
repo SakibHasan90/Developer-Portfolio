@@ -15,11 +15,15 @@ h3 {
     color: orange;
 }
 
-section {
+.exp-h1 {
+    color: orange;
+}
+
+.flexible-content {
     display: flex;
 }
 
-.sec-width {
+.half-width {
     width: 50%;
     padding: 3%;
 }
@@ -52,4 +56,34 @@ p {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box-text {
+    width: 40%;
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px rgb(46, 46, 48);
+    border-radius: 4px;
+
+}
+
+#baby-box {
+    border-left: 20px solid darkorange;
+}
+
+#developer-box {
+    border-left: 20px solid tomato;
+}
+
+footer p {
+    color: blueviolet;
+    text-align: center;
+    margin-top: 100px;
 }
